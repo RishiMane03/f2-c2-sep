@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 30px; 
+}
+
+.lower{
+    padding: 25px;
+    background-color: #d9d9d9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+
+.serachBar{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#searchInput{
+    flex: 6;
+    padding: 13px;
+    font-size: 18px;
+}
+
+#searchButton{
+    flex: 1;
+    padding: 13px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#searchButton:hover{
+    background-color: lightskyblue;
+    color: black;
+    text-shadow: 1px 1px 5px black;
+}
+
+.sortButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.btns{
+    padding: 20px 60px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.btns:hover{
+    background-color: lightskyblue;
+    color: black;
+    text-shadow: 1px 1px 5px black;
+}

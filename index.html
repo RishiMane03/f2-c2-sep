@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Data</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <nav>
+        <p>Student Portal</p>
+    </nav>
+
+    <section class="lower">
+
+        <div class="serachBar">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search by First Name, Last Name, or Email"
+            />
+            <button id="searchButton">Search</button>
+        </div>
+    
+        <div class="sortButtons">
+            <button class="btns" id="sortAscendingButton">Sort Ascending</button>
+            <button class="btns" id="sortDescendingButton">Sort Descending</button>
+            <button class="btns" id="sortMarksButton">Sort by Marks</button>
+            <button class="btns" id="sortPassingButton">Sort by Passing</button>
+            <button class="btns" id="sortClassButton">Sort by Class</button>
+            <button class="btns" id="sortGenderButton">Sort by Gender</button>
+        </div>
+    
+        
+    
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Gender</th>
+              <th>Class</th>
+              <th>Marks</th>
+              <th>Passing</th>
+            </tr>
+          </thead>
+          <tbody id="studentTableBody"></tbody>
+        </table>
+    </section>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
