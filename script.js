@@ -1285,6 +1285,7 @@
 
         // Loop through the data and insert objects into the table
         data.forEach(function (student) {
+
           var row = document.createElement("tr");
           row.innerHTML = `
                     <td>${student.id}</td>
@@ -1416,7 +1417,7 @@
       document
         .getElementById("sortGenderButton")
         .addEventListener("click", sortDataByGender);
-        
+
       // Display the initial data
       displayData(Data);
 
